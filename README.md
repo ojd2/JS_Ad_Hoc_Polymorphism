@@ -24,10 +24,10 @@ mapping and invocation properties.
 
 To begin with, Single Dispatching can be implemented by invoking a polymorphic
 method that also invokes another object’s polymorphic methods. 
-The example below demonstrates that each object invoked by the `BankPrototype`
+The example below demonstrates that each object invoked by the ```BankPrototype```
 object, knows what to do when:
 
-`MoneyAddedTo -> Savings() || MoneyAddedTo -> Mortgage()`
+```MoneyAddedTo -> Savings() || MoneyAddedTo -> Mortgage()```
 
 ```
 var BankPrototype = {
@@ -71,6 +71,8 @@ var SavingsPrototype = {
 		 Handle when the interest rate needs to be added to fees in July.
 	}
 }
+```
+
 ```
 var MortgagePrototype = {
 	moneyForMortgage: function (objectOfMoneyForMortgagePayment) {
