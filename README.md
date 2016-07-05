@@ -24,7 +24,7 @@ mapping and invocation properties.
 
 To begin with, Single Dispatching can be implemented by invoking a polymorphic
 method that also invokes another object’s polymorphic methods. 
-The example below demonstrates that each object invoked by the BankPrototype 
+The example below demonstrates that each object invoked by the `BankPrototype`
 object, knows what to do when:
 
 `MoneyAddedTo -> Savings() || MoneyAddedTo -> Mortgage()`
@@ -56,7 +56,7 @@ accountants were doubling the interest rates or changing the interest paid
 from yearly to monthly? For any one of these scenarios, special cases were
 integrated into programming languages to handle these exceptions. We can 
 implement Double dispatching using methods as our arguments. In JavaScript, 
-we can extend our BankPrototype into more smaller components that are 
+we can extend our `BankPrototype` into more smaller components that are 
 modular and can be connected by chaining together prototypes: 
 
 ```
