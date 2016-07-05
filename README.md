@@ -38,10 +38,10 @@ var BankPrototype = {
 		otherObject.Mortgage();
 	},
 	Savings: function () {
-		return 
+		return moneyForSavings
 	},
 	Mortgage: function () {
-		 ...
+		return moneyForMortgage
 	}
 }
 ```
