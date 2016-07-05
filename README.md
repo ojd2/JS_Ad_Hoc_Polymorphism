@@ -55,7 +55,7 @@ payment needs to be added or subtracted? Furthermore, the banks savings
 accountants were doubling the interest rates or changing the interest paid 
 from yearly to monthly? For any one of these scenarios, special cases were
 integrated into programming languages to handle these exceptions. We can 
-implement Double dispatching using methods as our arguments. In JavaScript, 
+implement Double Dispatching using methods as our arguments. In JavaScript, 
 we can extend our `BankPrototype` into more smaller components that are 
 modular and can be connected by chaining together prototypes: 
 
